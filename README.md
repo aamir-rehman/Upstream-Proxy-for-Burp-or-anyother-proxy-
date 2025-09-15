@@ -33,7 +33,10 @@ For technical details visit : https://the-it-wonders.blogspot.com/2025/09/bypass
 ## ⚙️ Usage
 
 ```bash
-usage: Bypass_proxy.py [-h] [-p PORT] [-b BIND] [-v] [--allow ALLOW]
+usage: Python Bypass_proxy.py -p 8081 -v
+
+Help:Python Bypass_proxy.py -h
+bypass__proxy.py [-h] [-p PORT] [-b BIND] [-v] [--allow ALLOW]
 
 Upstream proxy that handles modern TLS/HTTP2 to origin
 
