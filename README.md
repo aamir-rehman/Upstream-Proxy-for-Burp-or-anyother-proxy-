@@ -7,7 +7,7 @@ Instead of relying on heavy tools, this script acts as an **intermediary forward
 Requires python 3.8+, Works on both windows and linux
 
 
-For technical details visit :
+For technical details visit : https://the-it-wonders.blogspot.com/2025/09/bypassing-burpsuite-failed-to-connect.html
 
 ---
 
