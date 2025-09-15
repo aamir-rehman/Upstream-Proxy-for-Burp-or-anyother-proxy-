@@ -2,9 +2,9 @@
 
 This project provides a **lightweight Python-based upstream proxy** to help penetration testers route traffic through **Burp Suite** (or any local proxy) even when an application or browser **fails to connect directly through Burp**.  
 
-Instead of relying on heavy tools, this script acts as an **intermediary forwarder**, passing all HTTP/HTTPS requests to your local Burp proxy — allowing smooth interception without connection errors.
+Instead of relying on heavy tools, this script acts as an **intermediary forwarder**, passing all HTTP/HTTPS requests to your local Burp proxy allowing smooth interception without connection errors.
 
-For technical details visit
+For technical details visit :
 
 ---
 
