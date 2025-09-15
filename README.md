@@ -15,9 +15,10 @@ For technical details visit :
 
 **Internet <--> Python Upstream Proxy <--> Burp Suite <--> Browser / Mobile App**
 
-- Browser/App connects sent the traffic to proxy(burp).
-- Upstream proxy host:port of this python script is configured in burp, The Python proxy transparently forwards traffic to/from Burp running on 127.0.0.1:8080.
-- Burp captures and analyzes the traffic as usual.
+- It listens locally on a port you define (e.g., default 127.0.0.1:8081).
+- It accepts connections from your BurpSuite proxy.
+- For normal HTTP requests, it forwards them to the target using modern libraries that support HTTP/2 and TLS 1.3.
+- For HTTPS (CONNECT requests), it sets up a raw tunnel, allowing your interception proxy to handle SSL/TLS interception as usual.
 
 ---
 
