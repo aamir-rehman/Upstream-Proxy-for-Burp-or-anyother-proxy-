@@ -26,6 +26,7 @@ For technical details visit : https://the-it-wonders.blogspot.com/2025/09/bypass
 
 - Python 3.8+ installed.
 - `pip install httpx`
+- `pip install httpx[http2]`
 - Burp Suite running locally (default port 8080)
 
 ---
